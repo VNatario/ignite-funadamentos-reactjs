@@ -7,7 +7,7 @@ export function Comment() {
       <img src="https://github.com/VNatario.png" />
 
       <div className={styles.commentBox}>
-        <div className={styles.commnetContent}>
+        <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
               <strong>Vitor Natario</strong>
@@ -20,7 +20,7 @@ export function Comment() {
             </div>
 
             <button title="Deletar Comentários">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>Muito bom, parabéns! 👏</p>
